@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="740"
+   height="230"
+   viewBox="0 0 195.79166 60.854167"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="1843_white_blue.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.69753788"
+     inkscape:cx="669.49769"
+     inkscape:cy="446.57073"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <clipPath
+       id="logo-01-0">
+      <path
+         d="M 766,1490 H 398 L 32,1266 V 922 l 332,203 h 2 V 0 h 400 z"
+         transform="matrix(0.1528188,0,0,-0.1543624,250.0548,358.99998)"
+         id="path2" />
+    </clipPath>
+    <clipPath
+       id="logo-01-1">
+      <path
+         d="m 656,-24 c 373,0 618,170 618,428 0,204 -149,335 -390,368 215,32 344,148 344,334 0,249 -223,408 -572,408 C 315,1514 86,1350 86,1106 86,920 216,803 430,772 189,739 40,608 40,404 40,146 284,-24 656,-24 Z m 0,278 c -114,0 -196,76 -196,182 0,105 82,180 196,180 115,0 198,-75 198,-180 0,-105 -84,-182 -198,-182 z m 0,653 c -106,0 -174,62 -174,159 0,97 68,159 174,159 107,0 176,-62 176,-159 0,-97 -69,-159 -176,-159 z"
+         transform="matrix(0.1480494,0,0,-0.1495449,384.19202,355.41098)"
+         id="path3" />
+    </clipPath>
+    <clipPath
+       id="logo-01-2">
+      <path
+         d="M 64,288 H 792 V 0 h 390 v 288 h 166 v 306 h -166 v 896 H 671 L 64,602 Z M 792,594 H 439 v 2 l 352,522 h 1 z"
+         transform="matrix(0.1528188,0,0,-0.1543624,586.0266,358.99998)"
+         id="path4" />
+    </clipPath>
+    <clipPath
+       id="logo-01-3">
+      <path
+         d="m 654,-24 c 365,0 612,189 612,444 0,178 -120,336 -344,359 v 3 c 169,20 298,136 298,318 0,243 -232,414 -562,414 -364,0 -580,-209 -580,-482 h 388 c 0,107 82,182 192,182 105,0 181,-69 181,-164 0,-97 -79,-154 -213,-154 H 482 V 616 H 626 C 765,616 854,551 854,451 854,354 771,286 652,286 520,286 440,371 440,512 H 50 C 50,234 228,-24 654,-24 Z"
+         transform="matrix(0.1480494,0,0,-0.1495449,807.62453,355.41098)"
+         id="path5" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1"
+       transform="translate(-67.46875,-34.052732)">
+      <g
+         clip-path="url(#logo-01-0)"
+         fill="#f8fbfe"
+         id="g10"
+         transform="matrix(0.26458333,0,0,0.26458333,-7e-6,-0.078517)">
+        <rect
+           x="249.89999"
+           y="129"
+           width="122.2"
+           height="28"
+           id="rect5" />
+        <rect
+           x="249.89999"
+           y="168"
+           width="122.2"
+           height="32"
+           id="rect6" />
+        <rect
+           x="249.89999"
+           y="211"
+           width="122.2"
+           height="31"
+           id="rect7" />
+        <rect
+           x="249.89999"
+           y="255"
+           width="122.2"
+           height="32"
+           id="rect8" />
+        <rect
+           x="249.89999"
+           y="297"
+           width="122.2"
+           height="27"
+           id="rect9" />
+        <rect
+           x="249.89999"
+           y="335"
+           width="122.2"
+           height="24"
+           id="rect10" />
+      </g>
+      <g
+         clip-path="url(#logo-01-1)"
+         fill="#f8fbfe"
+         id="g16"
+         transform="matrix(0.26458333,0,0,0.26458333,-7e-6,-0.078517)">
+        <rect
+           x="385.10001"
+           y="129"
+           width="192.7"
+           height="28"
+           id="rect11" />
+        <rect
+           x="385.10001"
+           y="168"
+           width="192.7"
+           height="32"
+           id="rect12" />
+        <rect
+           x="385.10001"
+           y="211"
+           width="192.7"
+           height="31"
+           id="rect13" />
+        <rect
+           x="385.10001"
+           y="255"
+           width="192.7"
+           height="32"
+           id="rect14" />
+        <rect
+           x="385.10001"
+           y="297"
+           width="192.7"
+           height="27"
+           id="rect15" />
+        <rect
+           x="385.10001"
+           y="335"
+           width="192.7"
+           height="24"
+           id="rect16" />
+      </g>
+      <g
+         clip-path="url(#logo-01-2)"
+         fill="#23bcd2"
+         id="g23"
+         transform="matrix(0.26458333,0,0,0.26458333,-7e-6,-0.078517)">
+        <rect
+           x="595"
+           y="124"
+           width="19"
+           height="240"
+           id="rect17" />
+        <rect
+           x="622.79999"
+           y="124"
+           width="20"
+           height="240"
+           id="rect18" />
+        <rect
+           x="651.59998"
+           y="124"
+           width="22"
+           height="240"
+           id="rect19" />
+        <rect
+           x="682.40002"
+           y="124"
+           width="23"
+           height="240"
+           id="rect20"
+           style="fill:#ffffff" />
+        <rect
+           x="714.20001"
+           y="124"
+           width="22"
+           height="240"
+           id="rect21" />
+        <rect
+           x="745"
+           y="124"
+           width="20"
+           height="240"
+           id="rect22" />
+        <rect
+           x="773.79999"
+           y="124"
+           width="19"
+           height="240"
+           id="rect23"
+           style="fill:#ffffff" />
+      </g>
+      <g
+         clip-path="url(#logo-01-3)"
+         fill="#f8fbfe"
+         id="g29"
+         transform="matrix(0.26458333,0,0,0.26458333,-7e-6,-0.078517)">
+        <rect
+           x="810"
+           y="129"
+           width="190"
+           height="28"
+           id="rect24" />
+        <rect
+           x="810"
+           y="168"
+           width="190"
+           height="32"
+           id="rect25" />
+        <rect
+           x="810"
+           y="211"
+           width="190"
+           height="31"
+           id="rect26" />
+        <rect
+           x="810"
+           y="255"
+           width="190"
+           height="32"
+           id="rect27" />
+        <rect
+           x="810"
+           y="297"
+           width="190"
+           height="27"
+           id="rect28" />
+        <rect
+           x="810"
+           y="335"
+           width="190"
+           height="24"
+           id="rect29" />
+      </g>
+    </g>
+    <path
+       d="m 113.29058,124.38694 h 16.37917 l 5.45973,-3.175 h 5.45972 m 54.59725,3.175 h 5.45973 l 5.45972,-3.175 h 16.37917"
+       stroke="#36516a"
+       stroke-width="0.620654"
+       fill="none"
+       id="path30" />
+  </g>
+</svg>

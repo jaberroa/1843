@@ -1,0 +1,25 @@
+/* 1843: Compilación Algorítmica. One CSS iteration on document load. */
+.header .brand .brand-logo{display:block;width:185px;height:86px;flex-shrink:0;overflow:hidden}
+.brand-logo .logo-bar{transform-box:fill-box}
+.brand-logo.is-animating .bar-horizontal{transform-origin:left center;animation:brand1843-horizontal 530ms cubic-bezier(.22,1,.36,1) var(--delay) 1 both}
+.brand-logo.is-animating .bar-vertical{transform-origin:center bottom;animation:brand1843-vertical 570ms cubic-bezier(.22,1,.36,1) var(--delay) 1 both}
+.brand-logo.is-animating [data-digit="4"]{animation:brand1843-finish 360ms ease-out 1840ms 1 both}
+@keyframes brand1843-horizontal{
+ from{opacity:0;transform:translateX(-3px) scaleX(.04)}
+ 75%{opacity:1}
+ to{opacity:1;transform:translateX(0) scaleX(1)}
+}
+@keyframes brand1843-vertical{
+ from{opacity:0;transform:translateY(3px) scaleY(.04)}
+ 75%{opacity:1}
+ to{opacity:1;transform:translateY(0) scaleY(1)}
+}
+@keyframes brand1843-finish{
+ 0%,100%{filter:brightness(1)}
+ 45%{filter:brightness(1.27)}
+}
+@media(max-width:1150px){.header .brand .brand-logo{width:155px}}
+@media(max-width:600px){.header .brand .brand-logo{width:145px;height:76px}}
+@media(prefers-reduced-motion:reduce){
+ .brand-logo.is-animating .logo-bar,.brand-logo.is-animating [data-digit="4"]{animation:none!important;opacity:1!important;transform:none!important;filter:none!important}
+}

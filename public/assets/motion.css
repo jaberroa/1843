@@ -1,0 +1,30 @@
+/* Approved Interaction Lab proposal: command, brackets and circuit border. */
+.command-hover .command-cursor{display:inline-block;width:7px;opacity:0;transform:translateX(-5px);transition:opacity 200ms,transform 200ms}
+.command-hover .command-enter{display:inline-block;transform:translateX(-4px);transition:transform 200ms}
+.command-hover:where(:hover,:focus-visible):not(:disabled) .command-cursor{opacity:1;transform:translateX(0)}
+.command-hover:where(:hover,:focus-visible):not(:disabled) .command-enter{transform:translateX(2px)}
+.command-hover.primary:focus-visible{background:#61d6e4}
+.command-hover:disabled .command-cursor{opacity:0}
+#navigation .bracket-link{position:relative;gap:6px;transition:color 180ms}
+#navigation .bracket-link .bracket{display:inline-block;color:var(--accent);opacity:.35;transition:transform 180ms,opacity 180ms}
+#navigation .bracket-link::after{content:"";position:absolute;bottom:4px;left:12px;right:12px;height:1px;background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform 180ms}
+#navigation .bracket-link:where(:hover,:focus-visible){color:var(--text)}
+#navigation .bracket-link:where(:hover,:focus-visible) .bracket{opacity:1}
+#navigation .bracket-link:where(:hover,:focus-visible) .bracket:first-child{transform:translateX(-3px)}
+#navigation .bracket-link:where(:hover,:focus-visible) .bracket:last-child{transform:translateX(3px)}
+#navigation .bracket-link:where(:hover,:focus-visible)::after{transform:scaleX(1)}
+.service-card,.product-card{position:relative;transition:transform 220ms,border-color 220ms,background-color 220ms}
+.service-card::before,.product-card::before{content:"";position:absolute;top:-1px;left:0;width:100%;height:2px;background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform 220ms;pointer-events:none}
+.service-card:focus-within,.product-card:focus-within{transform:translateY(-2px);background-color:var(--surface);border-color:var(--accent)}
+.service-card:focus-within::before,.product-card:focus-within::before{transform:scaleX(1)}
+.service-card>a>span,.product-link>span{display:inline-block;transition:transform 220ms}
+.service-card:focus-within>a>span,.product-card:focus-within .product-link>span{transform:translate(3px,-3px)}
+@media(hover:hover){
+ .service-card:hover,.product-card:hover{transform:translateY(-2px);background-color:var(--surface);border-color:var(--accent)}
+ .service-card:hover::before,.product-card:hover::before{transform:scaleX(1)}
+ .service-card:hover>a>span,.product-card:hover .product-link>span{transform:translate(3px,-3px)}
+}
+@media(prefers-reduced-motion:reduce){
+ .command-hover .command-cursor,.command-hover .command-enter,#navigation .bracket-link,#navigation .bracket-link .bracket,#navigation .bracket-link::after,.service-card,.product-card,.service-card::before,.product-card::before,.service-card>a>span,.product-link>span{transition:none!important}
+ .command-hover:where(:hover,:focus-visible):not(:disabled) .command-cursor,.command-hover:where(:hover,:focus-visible):not(:disabled) .command-enter,#navigation .bracket-link:where(:hover,:focus-visible) .bracket,.service-card:where(:hover,:focus-within),.product-card:where(:hover,:focus-within),.service-card:where(:hover,:focus-within)>a>span,.product-card:where(:hover,:focus-within) .product-link>span{transform:none}
+}
